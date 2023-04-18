@@ -1,0 +1,39 @@
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+.formulario form {
+    background-color: grey;
+    padding: 25px;
+}
+
+.formulario label {
+    display: block;
+    margin: 2px 0;
+}
+
+.formulario input {
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.formulario select {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.formulario textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.radio {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.formulario button {
+    display: block;
+}
